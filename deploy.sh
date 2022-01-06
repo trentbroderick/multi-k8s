@@ -11,3 +11,4 @@ kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=trentbroderick/multi-server:$SHA
 kubectl set image deployments/client-deployment client=trentbroderick/multi-client:$SHA
 kubectl set image deployments/worker-deployment worker=trentbroderick/multi-worker:$SHA
+
